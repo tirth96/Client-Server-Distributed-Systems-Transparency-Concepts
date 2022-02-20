@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!-- Name: Tirth Sharad Kelkar-->
+<!-- UTA ID: 1001826874 -->
+<project name="SocketApp" default="build">
+    <tstamp>
+        <format property="TODAY" pattern="dd-MM-yyyy" locale="en,UK"/>
+    </tstamp>
+    <target name="build" >
+         <delete includeEmptyDirs="true" quiet="true" >
+               <fileset dir="./out/test"  />
+         </delete>
+         <javac srcdir="./src" destdir="./out" optimize="true" includeantruntime="false" debug="true" debuglevel="lines,vars,source"  >
+		    <compilerarg value="-Xlint:unchecked" />
+            <compilerarg value="-Xlint:deprecation" />
+             <classpath>
+	             <fileset dir="./lib" casesensitive="no" ><include name="**/*.jar"/></fileset>
+             </classpath>
+         </javac>
+		  
+		  <jar jarfile="./testapp3.jar" basedir="./out"/>
+		  
+     </target>
+</project>
+
