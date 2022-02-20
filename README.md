@@ -1,4 +1,4 @@
-# Client-Server-Distributed-Systems-Transpency-Concepts
+# Client-Server-Distributed-Systems-Transparency-Concepts
 A Java Command Line application which implements Transparency concepts of distributed system. Also, implementation of file read/write lock and storing metadata into built in H2 database.
 # External Libraries used:
 # Apache Commons Language 3
