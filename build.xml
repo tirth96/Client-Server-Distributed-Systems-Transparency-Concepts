@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <!-- Name: Tirth Sharad Kelkar-->
-<!-- UTA ID: 1001826874 -->
+
 <project name="SocketApp" default="build">
     <tstamp>
         <format property="TODAY" pattern="dd-MM-yyyy" locale="en,UK"/>
