@@ -1,6 +1,6 @@
 # Client-Server-Distributed-Systems-Transpency-Concepts
-A Java Command Line application which implements Transparency concepts of distributed system. Also, implementation of file read/write lock and storing metadata into built in H2 datbase.
-External Libraries used:
+A Java Command Line application which implements Transparency concepts of distributed system. Also, implementation of file read/write lock and storing metadata into built in H2 database.
+# External Libraries used:
 # Apache Commons Language 3
 Web Site: https://commons.apache.org/proper/commons-lang/
 Apache Commons Lang provides a host of helper utilities for the java.lang API, notably String manipulation methods, basic numerical methods, object reflection, concurrency, creation and serialization and System properties.
